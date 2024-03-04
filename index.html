@@ -1,8 +1,206 @@
 <!DOCTYPE html>
-<html>
-   <head>
-   </head>
-   <body>
-      <!-- Write your HTML in this file! -->
-   </body>
+<html lang="en">
+
+<head>
+    <title>Lisa O'Malley</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- linking css file -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/plugins.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Francois+One&family=Noto+Sans+Mono:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Francois+One&family=Noto+Sans+Mono:wght@100..900&family=Press+Start+2P&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+
+<body>
+    <script>
+        $('#nav').onePageNav({         // #nav must be the id of your navigation
+            currentClass: 'current',
+            changeHash: false,
+            scrollSpeed: 750,          // change this parameter to adjust scrolling speed
+            scrollOffset: 30
+        });
+
+        function handleDisplay() {
+            // Show or hide footer based on window size
+            if ($(window).width() < 1263) {
+                $('footer').fadeOut();
+            } else {
+                $('footer').fadeIn();
+            }
+        }
+
+        // Event handlers to call the handleDisplay() function
+        $(window).resize(function () {
+            handleDisplay();
+        });
+
+        $(window).on('load', function () {
+            handleDisplay();
+        });
+
+    </script>
+
+    <div id="container">
+        <div id="main">
+
+            <div id="leftSide">
+                <header>Lisa O'Malley</header>
+                <ul id="nav">
+                    <li class="current"><a href="#home">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div id="rightSide">
+                <main>
+                    <section id="home">
+                        <img src="assets/images/headshot.png" align="right" height="300px" alt="Lisa O'Malley">
+                        <h1>About Lisa</h1>
+                        <p>Hello! My name's Lisa, and I'm a digital content manager based out of St. Louis. With over
+                            ten years in the marketing and communications sphere, I seek teo blend compelling content with seamless web experiences.
+                        </p>
+                        <h2>Skills</h2>
+
+                        <button>HTML</button> <button>CSS</button> <button>Javascript</button>
+                        <button>Writing/Editing</button> <button>SEO</button> <button>Content Management
+                            Systems</button> <button>Lead generation</button> <button>Content Strategy</button>
+                        <button>Email marketing</button> <button>Social media marketing</button>
+                        <button>Google Analytics</button>
+                    </section>
+
+                    <section id="resume">
+                        <hr>
+                        <br>
+                        <h1>Resume</h1>
+                        <h2>Professional Training</h2>
+                        <b><a href="https://www.launchcode.org/" target="_blank" rel="noopener noreferrer">Full-Stack Web Development Bootcamp</a></b>, LaunchCode <br>
+                        St. Louis, MO | <i>January 2024 - September 2024</i><br><br>
+                        Intensive part-time course covering JavaScript problem-solving, front-end development with
+                        React, object-oriented programming using Java, MySQL databases, and the Spring Boot web
+                        framework, all in line with the latest industry standards.
+                        <br>
+                        <h2>Work Experience</h2>
+                        <b>Digital Content Editor</b>, Insight Into Diversity Magazine <br>
+                        St. Louis, MO | <i>June 2020 - January 2024</i><br>
+                        <ul>
+                            <li>Managed WordPress website, boosted traffic 20% YoY through SEO, content creation, and
+                                accessibility improvements.</li>
+                            <li>Planned & managed social media, achieving 50% follower growth, and oversaw email
+                                campaigns for maximum impact.</li>
+                            <li>Wrote/edited for print & online publications, established house style guide, and
+                                interviewed diverse leaders.
+                            </li>
+                        </ul>
+                        <br>
+                        <b>Content Creator</b>, Arco + Associates <br>
+                        St. Louis, MO | <i>September 2019 - June 2020</i><br>
+
+                        <ul>
+                            <li>Implemented marketing campaigns for clients in a wide-range of industries, including
+                                healthcare, retail, nonprofit organizations, insurance and payroll services, plus more.
+                            </li>
+                            <li>Performed audience research for brands and assisted in developing content strategies for
+                                clients.</li>
+                            <li>Tracked & analyzed social media, email, and website metrics to gauge campaign
+                                performance. </li>
+                        </ul>
+                        <br>
+                        <b>Content Creator</b>, Bonfyre App <br>
+                        St. Louis, MO | <i>December 2018 - September 2019</i><br>
+                        <ul>
+                            <li>Created B2B marketing communications, including short- and long-form articles, white
+                                papers, case studies, video advertisements, presentations, etc. </li>
+                            <li>Researched targeted key phrases to increase SEO rankings and optimized content for lead
+                                generation and conversions. </li>
+                        </ul>
+                        <br>
+                        <b>Web Specialist</b>, Florida Department of Education<br>
+                        Tallahassee, FL |<i>February 2017 - August 2018</i><br>
+                        <ul>
+                            <li>Oversaw website content updates for the Office of Early Learning, ensuring accuracy and
+                                clarity for public audiences.</li>
+                            <li>Supported a seamless migration to a new content management system, minimizing disruption
+                                and maintaining accessibility standards. </li>
+                            <li>Wrote communications materials, including blog posts, weekly newsletters, press
+                                releases, manuals, and more.</li>
+                        </ul>
+                        <h2>Education</h2>
+                        <b>Bachelor of Arts - Creative Writing</b>, Florida State University<br>
+                        Tallahassee, FL |<i>August 2014</i><br>
+                    </section>
+
+                    <section id="portfolio">
+                        <hr>
+                        <br>
+                        <h1>Portfolio</h1>
+                        <h2>Writing Samples</h2>
+                        <article>
+
+                            <a href="https://www.insightintodiversity.com/study-tracks-diversity-outcomes-for-physician-assistant-programs/"
+                                target="_blank" rel="noopener noreferrer">
+                                Study Tracks Diversity Outcomes for Physician Assistant Programs</a> <br>
+                            <i>Insight Into Diversity Magazine</i>, December 2022.<br><br>
+                        </article>
+                        <article>
+                            <a href="https://www.insightintodiversity.com/expanding-student-data-collection-efforts-can-help-create-a-more-equitable-campus/"
+                                target="_blank" rel="noopener noreferrer">
+                                Expanding Student Data-Collection Efforts Can Help Create a More Equitable Campus</a>
+                            <br>
+                            <i>Insight Into Diversity Magazine</i>, October 2022.
+                            <br><br>
+                        </article>
+                            <a href="https://www.insightintodiversity.com/the-negative-effects-of-recent-anti-lgbtq-legislation-spread-to-higher-education/"
+                                target="_blank" rel="noopener noreferrer">
+                                The Negative Effects of Recent Anti-LGBTQ Legislation Spread to Higher Education</a>
+                            <br>
+                            <i>Insight Into Diversity Magazine</i>, May 2022.
+                            <br><br>
+                            <a href="https://bonfyreapp.com/blog/bonfyre-supports-employee-experience" target="_blank"
+                                rel="noopener noreferrer">
+                                How Bonfyre Supports the Employee Experience</a>
+                            <br>
+                            <i>Bonfyre App</i>, June 2019.
+                        
+
+                        <h2>Social Media</h2>
+                        Under Construction
+                    </section>
+
+                    <section id="contact">
+                        <hr>
+                        <br>
+                        <h1>Contact</h1>
+                        <img src="assets/images/email.png" height="50px" width="50px" alt="Email"><a
+                            href="mailto:lisasomalley@gmail.com?subject=Hello!"> lisasomalley@gmail.com</a>
+                        <br>
+                        <img src="assets/images/linkedin.png" height="50" width="50" alt="LinkedIn"></a> <a
+                            href="https://www.linkedin.com/in/lisasomalley/" target="_blank" rel="noopener noreferrer">
+                            LinkedIn</a>
+                    </section>
+                </main>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <section id="footer">
+<footer>Copyright Lisa O'Malley 2024</footer>
+    </section>
+
+</body>
+
 </html>
