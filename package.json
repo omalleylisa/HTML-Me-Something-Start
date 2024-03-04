@@ -1,7 +1,7 @@
 {
    "name": "html-me-something",
    "version": "1.0.0",
-   "description": "intro to prof web dev assignment 4",
+   "description": "intro to prof web dev assignment four",
    "main": "grading.js",
    "scripts": {
       "test": "jest"
