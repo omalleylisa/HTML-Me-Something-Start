@@ -181,7 +181,7 @@ const config = {
   //   "/node_modules/",
   //   "\\.pnp\\.[^\\/]+$"
   // ],
-
+//
   // An array of regexp pattern strings that are matched against all modules before the module loader will automatically return a mock for them
   // unmockedModulePathPatterns: undefined,
 
