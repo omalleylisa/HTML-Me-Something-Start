@@ -1,25 +1,24 @@
 body {
-  color: #000;
+  color: #1b1a1a;
   margin: 10px 0px 10px 0px;
   background-color: #ffffff;
-  background-image: url("assets/images/background.png");
+  font-size: 16px;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: "Noto Sans Mono", monospace;
+  font-family: "Miriam Libre", sans-serif;
 }
 
 a {
   color: #000;
   font-style: normal;
   text-decoration: none;
-  font-family: "Press Start 2P", system-ui;
+  font-weight: bold;
 }
 
 a:hover {
-  color: #e8279b;
+  color: rgb(143, 87, 178);
   font-style: normal;
   text-decoration: none;
-  font-family: "Press Start 2P", system-ui;
 }
 
 #main {
@@ -37,7 +36,6 @@ a:hover {
   font-size: 25px;
   font-weight: 1000;
   line-height: 40px;
-  font-family: "Press Start 2P", system-ui;
 }
 
 #rightSide {
@@ -63,19 +61,7 @@ hr {
 
 section {
   min-height: 200px;
-  margin-bottom: 75px;
-}
-
-button {
-  font-family: "Press Start 2P", system-ui;
-  color:#fff;
-  border: none;
-  font-size:16px;
-  background-color: #e8279b;
-}
-
-h1 {
-  font-family: "Press Start 2P", system-ui;
+  margin-bottom: 30px;
 }
 
 #mainHeading {
@@ -84,4 +70,131 @@ h1 {
 
 .funParagraph {
   color: green;
+}
+
+#nav {
+  list-style-type: none;
+  justify-content: space-around; 
+}
+
+#nav li {
+  display: inline; 
+  background-color: #000;
+}
+
+#nav a {
+  color:#FFF; 
+  text-decoration: none; 
+  padding: 10px 10px; 
+}
+
+#nav a:hover {
+  color: rgb(143, 87, 178);
+}
+
+.icon {
+  width: 15px;
+  height: auto; 
+  margin-right: 5px; 
+  vertical-align: middle; 
+}
+
+h1 {
+    font-size: 30px; /* Size of the font */
+    font-weight: bold; /* Weight of the font */
+    color: #333; /* Color of the text */
+    margin-bottom: 20px; /* Space below the heading */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.work-details {
+  text-transform: uppercase;
+  color: grey;
+  font-size: 15px;
+  font-family: "Questrial", sans-serif;
+  padding: 5px 5px; 
+
+}
+
+.company {
+  font-style: italic;
+}
+
+.position {
+  font-weight: bold;
+}
+
+.samples {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adjust the space between each sample */
+}
+
+.sample {
+    margin-bottom: 10px; /* Space between samples, adjust as needed */
+}
+
+.sample a {
+    margin-bottom: 5px; /* Space between the link and publication details */
+    color: #000; /* Example link color, adjust as needed */
+    text-decoration: none; /* Removes underline from links */
+    font-size: 16px; /* Adjust link font size as needed */
+    font-family: "Questrial", sans-serif;
+}
+
+.sample img.icon {
+    margin-bottom: 5px; /* Space below the icon, adjust as needed */
+    vertical-align: middle; /* Aligns the icon with the text if they are on the same line */
+}
+
+.publication-details {
+    text-transform: uppercase;
+    color: grey;
+    font-size: 15px;
+    font-family: "Questrial", sans-serif;
+    padding: 5px 15px;
+}
+#skillsList {
+  background-color: #f5f5f5; 
+  padding: 10px; 
+  border-radius: 18px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  max-width: 500px; 
+}
+
+#skillsList h2 {
+  color: #333; 
+  font-size: 24px; 
+  margin-bottom: 15px; 
+  font-weight: 600;
+}
+
+#skillsList ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; 
+}
+
+#skillsList li {
+  padding: 8px 0; 
+  border-bottom: 1px solid #ddd; 
+}
+
+#skillsList li:last-child {
+  border-bottom: none; 
+}
+
+#skillsList li strong {
+  color: #333; 
+  font-weight: bold; 
+}
+
+.headshot {
+  margin: 20px;
+  
 }
