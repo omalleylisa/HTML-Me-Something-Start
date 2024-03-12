@@ -100,10 +100,10 @@ section {
 }
 
 h1 {
-    font-size: 30px; /* Size of the font */
-    font-weight: bold; /* Weight of the font */
-    color: #333; /* Color of the text */
-    margin-bottom: 20px; /* Space below the heading */
+    font-size: 30px;
+    font-weight: bold; 
+    color: #333;
+    margin-bottom: 20px; 
     text-transform: uppercase;
     letter-spacing: 3px;
 }
@@ -132,24 +132,24 @@ h2 {
 .samples {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Adjust the space between each sample */
+    gap: 20px; 
 }
 
 .sample {
-    margin-bottom: 10px; /* Space between samples, adjust as needed */
+    margin-bottom: 10px;
 }
 
 .sample a {
-    margin-bottom: 5px; /* Space between the link and publication details */
-    color: #000; /* Example link color, adjust as needed */
-    text-decoration: none; /* Removes underline from links */
-    font-size: 16px; /* Adjust link font size as needed */
+    margin-bottom: 5px; 
+    color: #000; 
+    text-decoration: none; 
+    font-size: 16px;
     font-family: "Questrial", sans-serif;
 }
 
 .sample img.icon {
-    margin-bottom: 5px; /* Space below the icon, adjust as needed */
-    vertical-align: middle; /* Aligns the icon with the text if they are on the same line */
+    margin-bottom: 5px; 
+    vertical-align: middle; 
 }
 
 .publication-details {
